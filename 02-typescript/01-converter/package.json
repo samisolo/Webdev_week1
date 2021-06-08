@@ -1,7 +1,7 @@
 {
-	"name": "04-addition",
+	"name": "cemperatureconverter",
 	"version": "1.0.0",
-	"author": "Matthieu Bovel",
+	"author": "Samuel Kahsay",
 	"private": true,
 	"scripts": {
 		"build": "webpack",
