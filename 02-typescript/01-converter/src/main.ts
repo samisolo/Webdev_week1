@@ -26,5 +26,8 @@ celciusInput.addEventListener("input", () => {
 })
 
 fahrenheitInput.addEventListener("input", () => {
-	console.log("New fahrenheit value: " + fahrenheitInput.value)
+	const result = convert(parseInt(fahrenheitInput.value),"f")
+	celciusInput.value = result.toString();
 })
+
+
